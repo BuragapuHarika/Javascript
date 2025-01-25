@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id = "demo"></p>
+<script>
+    let a = 1;
+    let  b = 2;
+    let d = 5;
+    let f = 8;
+    let c = a+ b;
+    let v = a - b;
+    
+     document.getElementById("demo").innerHTML = "the value of the c is :" + c;
+     document.getElementById("demo").innerHTML = "the value of the v is "+ v + "<br>" + c;
+
+</script>
+
+<p id = "assignment"></p>
+<script>
+    let x = 10;
+    let y = 50 + x;
+    document.getElementById("assignment").innerHTML = "The value of the y is :" + y;
+</script>
+
+<p id = "&operator"></p>
+<script>
+    let p = 5;
+    let q = 9;
+    p &= 5;
+
+    document.getElementById("&operator").innerHTML = "the value of the p is :" + p ;
+</script>
+<p id = "demo1"></p>
+<script>
+    const person = {
+        firstname : "buragapu",
+        lastname : "Harika",
+        age : "19",
+        cgpa : "9.1"
+    };
+
+    document.getElementById ("demo1").innerHTML = person.firstname +  person.lastname + "is" + person.age + "years old" + "and her cgpa is" + person.cgpa; 
+
+</script>
+
+<p id = "typeof"></p>
+<script>
+    document.getElementById("typeof").innerHTML = 
+    typeof "" + "<br>" +
+typeof "John" + "<br>" + 
+typeof 1234567;
+</script>
+
+<p id = "functions"></p>
+<script>
+    function mtFunction(p1 , p2)
+    {
+        return p1 * p2;
+    }
+
+    let result = myFunction(2 , 3);
+
+    document.getElementById("functions").innerHTML = result;
+</script>
+</body>
+</html>

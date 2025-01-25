@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id = "functions" ></p>
+<script>
+    function myFunction(p1 , p2)
+    { // p1 and the p2 are the local parameters.
+        return p1 * p2;
+    }
+
+    let result = myFunction(2 , 3);
+
+    document.getElementById("functions").innerHTML = result;
+</script>
+
+<p id = "java"></p>
+<script>
+    let x = myFunction(4,3);
+    document.getElementById("java").innerHTML = x;
+
+    function matchFunction(p11 , p22)
+        {
+            return p11 -  p22;
+
+        }
+</script>
+
+
+    
+</body>
+</html>
